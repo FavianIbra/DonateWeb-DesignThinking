@@ -1,5 +1,7 @@
 import Head from 'next/head';
-import Header from '../components/Header';
+import NavHead from '../components/NavHead';
+import GrafikChart from '../components/GrafikChart';
+import CardData from '../components/CardData';
 
 export default function Home() {
   return (
@@ -11,7 +13,11 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='bg-gray-100 min-h-screen'>
-        <Header />
+        <NavHead />
+        <CardData />
+        <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
+          <GrafikChart />
+          </div>
       </main>
     </>
   );
