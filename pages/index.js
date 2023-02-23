@@ -2,6 +2,7 @@ import Head from 'next/head';
 import NavHead from '../components/NavHead';
 import GrafikChart from '../components/GrafikChart';
 import CardData from '../components/CardData';
+import ListDonate from '../components/ListDonate';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <CardData />
         <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
           <GrafikChart />
+          <ListDonate />
           </div>
       </main>
     </>

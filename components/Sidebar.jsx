@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { RxSketchLogo } from 'react-icons/rx';
+import { RxHome } from 'react-icons/rx';
 
 
 const Sidebar = ({ children }) => {
@@ -10,7 +10,7 @@ const Sidebar = ({ children }) => {
         <div className='flex flex-col items-center'>
           <Link href='/'>
             <div className='bg-gray-800 text-white p-3 rounded-lg inline-block'>
-              <RxSketchLogo size={20} />
+              <RxHome size={20} />
             </div>
           </Link>
           
