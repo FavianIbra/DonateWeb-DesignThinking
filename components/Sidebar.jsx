@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { RxHome } from 'react-icons/rx';
+import { RxHome, RxPerson } from 'react-icons/rx';
 
 
 const Sidebar = ({ children }) => {
@@ -13,7 +13,11 @@ const Sidebar = ({ children }) => {
               <RxHome size={20} />
             </div>
           </Link>
-          
+          <Link href='/donation'>
+            <div className='bg-gray-100 hover:bg-gray-200 cursor-pointer my-4 p-3 rounded-lg inline-block'>
+              <RxPerson size={20} />
+            </div>
+          </Link>
         </div>
       </div>
       <main className='ml-20 w-full'>{children}</main>
