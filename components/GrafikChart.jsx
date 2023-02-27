@@ -41,7 +41,7 @@ const BarChart = () => {
     setChartOptions({
         plugins: {
             legend: {
-                position: 'bottom',
+                position: 'top',
             },
             title: {
                 display: true,
