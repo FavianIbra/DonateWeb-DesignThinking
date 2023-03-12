@@ -15,7 +15,7 @@ const customers = () => {
             <span>Name</span>
             <span className='sm:text-left text-right'>Email</span>
             <span className='hidden md:grid'>Last Order</span>
-            <span className='hidden sm:grid'>Method</span>
+            <span className='hidden sm:grid'>Via</span>
           </div>
           <ul>
             {data.map((donate, id) => (
@@ -29,7 +29,7 @@ const customers = () => {
                     <p className='text-gray-600 sm:text-left text-right'>{donate.name.first}@gmail.com</p>
                     <p className='hidden md:flex'>{donate.date}</p>
                     <div className='sm:flex hidden justify-between items-center'>
-                        <p>{donate.method}</p>
+                        <p>{donate.via}</p>
                         <BsThreeDotsVertical />
                     </div>
                 </li>

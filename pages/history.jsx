@@ -15,8 +15,8 @@ const donate = () => {
           <div className='my-3 p-2 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-between cursor-pointer'>
             <span>Histori Donasi</span>
             <span className='sm:text-left text-right'>Status</span>
-            <span className='hidden md:grid'>Last Order</span>
-            <span className='hidden sm:grid'>Method</span>
+            <span className='hidden md:grid'>Last Donation</span>
+            <span className='hidden sm:grid'>Via</span>
           </div>
           <ul>
             {data.map((donate, id) => (
@@ -38,9 +38,9 @@ const donate = () => {
                 <p className='text-gray-600 sm:text-left text-right'>
                   <span
                     className={
-                      donate.status == 'Processing'
+                      donate.status == 'Transfer Bank'
                         ? 'bg-green-200 p-2 rounded-lg'
-                        : donate.status == 'Completed'
+                        : donate.status == 'Tunai'
                         ? 'bg-blue-200 p-2 rounded-lg'
                         : 'bg-yellow-200 p-2 rounded-lg'
                     }
@@ -50,7 +50,7 @@ const donate = () => {
                 </p>
                 <p className='hidden md:flex'>{donate.date}</p>
                 <div className='sm:flex hidden justify-between items-center'>
-                  <p>{donate.method}</p>
+                  <p>{donate.via}</p>
                   <BsThreeDotsVertical />
                 </div>
               </li>

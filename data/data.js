@@ -6,6 +6,8 @@
       last: 'Nugroho',
     },
     total: 50.222,
+    status: 'Tranfer Mobile',
+    via:'DANA',
     date: '15 Menit yang lalu',
   },
   {
@@ -15,6 +17,8 @@
       last: 'Kumalasari',
     },
     total: 150.554,
+    status: 'Transfer Bank',
+    via:'BRI',
     date: '23 Menit yang lalu',
   },
   {
@@ -24,6 +28,8 @@
       last: 'Nugroho',
     },
     total: 25.892,
+    status: 'Tunai',
+    via:'-',
     date: '1 Jam yang lalu',
   },
   {
@@ -33,6 +39,8 @@
       last: 'Kurniawan',
     },
     total: 50.982,
+    status: 'Transfer Bank',
+    via:'BCA',
     date: '1 Jam yang lalu',
   },
   {
@@ -42,6 +50,8 @@
       last: 'Ramadhan',
     },
     total: 10.232,
+    status: 'Transfer Bank',
+    via:'BCA',
     date: '2 Jam yang lalu',
   },
   {
@@ -51,6 +61,8 @@
       last: 'Amelia',
     },
     total: 200.921,
+    status: 'Transfer Mobile',
+    via:'DANA',
     date: '3 Jam yang lalu',
   },
   {
@@ -60,6 +72,8 @@
       last: 'Putri',
     },
     total: 20.155,
+    status: '',
+    method:'',
     date: '3 Jam yang lalu',
   },
   {
@@ -69,6 +83,8 @@
       last: 'Rezky',
     },
     total: 10.982,
+    status: '',
+    method:'',
     date: '7 Jam yang lalu',
   },
   {
@@ -78,6 +94,8 @@
       last: 'Hermawan',
     },
     total: 100.812,
+    status: '',
+    method:'',
     date: '1 Hari lalu',
   },
   {
@@ -87,6 +105,8 @@
       last: 'Effendy',
     },
     total: 25.442,
+    status: '',
+    method:'',
     date: '1 Hari lalu',
   },
 ];
