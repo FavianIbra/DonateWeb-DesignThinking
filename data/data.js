@@ -72,8 +72,8 @@
       last: 'Putri',
     },
     total: 20.155,
-    status: '',
-    method:'',
+    status: 'Transfer Bank',
+    via:'Mandiri',
     date: '3 Jam yang lalu',
   },
   {
@@ -83,8 +83,8 @@
       last: 'Rezky',
     },
     total: 10.982,
-    status: '',
-    method:'',
+    status: 'Transfer Bank',
+    via:'BCA',
     date: '7 Jam yang lalu',
   },
   {
@@ -94,8 +94,8 @@
       last: 'Hermawan',
     },
     total: 100.812,
-    status: '',
-    method:'',
+    status: 'Mobile',
+    via:'LinkAja',
     date: '1 Hari lalu',
   },
   {
@@ -105,8 +105,8 @@
       last: 'Effendy',
     },
     total: 25.442,
-    status: '',
-    method:'',
+    status: 'Mobile',
+    via:'DANA',
     date: '1 Hari lalu',
   },
 ];
